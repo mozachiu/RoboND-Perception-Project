@@ -52,10 +52,14 @@ You're reading it!
 5. To separate the objects from the table, use RANSAC to fit a plane in the point cloud.
 
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
+1. Use Euclidean Clustering to separate one object from another .
+
+2. Extract histogram features to capture the color and shape characteristics of point clouds.
 
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 
-Change the kernel type to RBF (Radial Basis Function) in train_svm.py script to get better decision boundaries result.
+1. Change the kernel type to RBF (Radial Basis Function) in train_svm.py script to get better decision boundaries result.
+2. Training the SVM Model
 
 normalized confusion matrix :
 
