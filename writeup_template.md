@@ -2,7 +2,9 @@
 ### Writeup Template: You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
 
 ---
-
+[image1]: ./pr2_robot/scripts/ConfusionMatrixN_1.png
+[image2]: ./pr2_robot/scripts/ConfusionMatrixN_2.png
+[image3]: ./pr2_robot/scripts/ConfusionMatrixN_3.png
 
 # Required Steps for a Passing Submission:
 1. Extract features and train an SVM model on new objects (see `pick_list_*.yaml` in `/pr2_robot/config/` for the list of models you'll be trying to identify). 
@@ -40,16 +42,14 @@ You're reading it!
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
-Here is an example of how to include an image in your writeup.
-
-![demo-1](https://user-images.githubusercontent.com/20687560/28748231-46b5b912-7467-11e7-8778-3095172b7b19.png)
-
+normalized confusion matrix 
+![alt text][image1]
+![alt text][image2]
+![alt text][image3]
 ### Pick and Place Setup
 
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
-And here's another image! 
-![demo-2](https://user-images.githubusercontent.com/20687560/28748286-9f65680e-7468-11e7-83dc-f1a32380b89c.png)
 
 Spend some time at the end to discuss your code, what techniques you used, what worked and why, where the implementation might fail and how you might improve it if you were going to pursue this project further.  
 
