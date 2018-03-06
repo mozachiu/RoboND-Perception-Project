@@ -5,6 +5,9 @@
 [image1]: ./pr2_robot/scripts/ConfusionMatrixN_1.png
 [image2]: ./pr2_robot/scripts/ConfusionMatrixN_2.png
 [image3]: ./pr2_robot/scripts/ConfusionMatrixN_3.png
+[image4]: ./pr2_robot/scripts/test1.png
+[image5]: ./pr2_robot/scripts/test2.png
+[image6]: ./pr2_robot/scripts/test3.png
 
 # Required Steps for a Passing Submission:
 1. Extract features and train an SVM model on new objects (see `pick_list_*.yaml` in `/pr2_robot/config/` for the list of models you'll be trying to identify). 
@@ -59,6 +62,14 @@ test3.world
 
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
+test1.world
+![alt text][image4]
+
+test2.world
+![alt text][image5]
+
+test3.world
+![alt text][image6]
 
 Spend some time at the end to discuss your code, what techniques you used, what worked and why, where the implementation might fail and how you might improve it if you were going to pursue this project further.  
 
