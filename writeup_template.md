@@ -42,9 +42,18 @@ You're reading it!
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
-normalized confusion matrix 
+
+Change the kernel type to RBF (Radial Basis Function) in train_svm.py script to get better decision boundaries result.
+
+normalized confusion matrix :
+
+test1.world
 ![alt text][image1]
+
+test2.world
 ![alt text][image2]
+
+test3.world
 ![alt text][image3]
 ### Pick and Place Setup
 
