@@ -41,6 +41,15 @@ You're reading it!
 
 ### Exercise 1, 2 and 3 pipeline implemented
 #### 1. Complete Exercise 1 steps. Pipeline for filtering and RANSAC plane fitting implemented.
+1. To read the data coming from the RGBD sensor, create a ROS node.
+
+2. Every time the sensor publishes a new pc2.PointCloud2 message, the function pcl_callback will be called.
+
+3. To reduce the resolution, apply a downsampling filter.
+
+4. Add a pass through filter on the 'z' axis to only capture points above and within the table.
+
+5. To separate the objects from the table, use RANSAC to fit a plane in the point cloud.
 
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 
