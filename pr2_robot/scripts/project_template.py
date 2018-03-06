@@ -63,7 +63,6 @@ def pcl_callback(ros_msg):
     downsampled = vox.filter()
 
     # Outlier Removal Filter
-    # Much like the previous filters, we start by creating a filter object:
     outlier_filter = downsampled.make_statistical_outlier_filter()
     # Set the number of neighboring points to analyze for any given point
     outlier_filter.set_mean_k(5)
@@ -162,7 +161,6 @@ def pcl_callback(ros_msg):
         ros_cluster = pcl_to_ros(pcl_cluster)
 
         # Extract histogram features
-        # complete this step just as is covered in capture_features.py
         chists = compute_color_histograms(ros_cluster, using_hsv=True)
         normals = get_normals(ros_cluster)
         nhists = compute_normal_histograms(normals)
@@ -268,7 +266,6 @@ def pr2_mover(object_list):
 
             # TODO: Insert your message variables to be sent as a service request
             resp = pick_place_routine(test_scene_num, object_name, arm_name, pick_pose, place_pose)
-            #print ("Response: ", resp.success)
 
         except rospy.ServiceException, e:
             print "Service call failed: %s"%e
