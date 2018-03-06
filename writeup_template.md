@@ -73,5 +73,5 @@ test3.world
 
 Spend some time at the end to discuss your code, what techniques you used, what worked and why, where the implementation might fail and how you might improve it if you were going to pursue this project further.  
 
-
+My perception pipeline  identify of objects correctly. But the performance of the pick and place task is awful. It's need more works of tweak.
 
