@@ -53,7 +53,7 @@ def compute_normal_histograms(normal_cloud):
     norm_y_vals = []
     norm_z_vals = []
     nbins=32
-    bins_range=(0, 256)
+    #bins_range=(0, 256)
 
     for norm_component in pc2.read_points(normal_cloud,
                                           field_names = ('normal_x', 'normal_y', 'normal_z'),
@@ -63,9 +63,12 @@ def compute_normal_histograms(normal_cloud):
         norm_z_vals.append(norm_component[2])
 
     # TODO: Compute histograms of normal values (just like with color)
-    h_hist = np.histogram(norm_x_vals, bins=nbins, range=bins_range)
-    s_hist = np.histogram(norm_y_vals, bins=nbins, range=bins_range)
-    v_hist = np.histogram(norm_z_vals, bins=nbins, range=bins_range)
+    # h_hist = np.histogram(norm_x_vals, bins=nbins, range=bins_range)
+    # s_hist = np.histogram(norm_y_vals, bins=nbins, range=bins_range)
+    # v_hist = np.histogram(norm_z_vals, bins=nbins, range=bins_range)
+    h_hist = np.histogram(norm_x_vals,density=True)
+    s_hist = np.histogram(norm_y_vals,density=True)
+    v_hist = np.histogram(norm_z_vals,density=True)
     # TODO: Concatenate and normalize the histograms
 
     # Generate random features for demo mode.
