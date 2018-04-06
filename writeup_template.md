@@ -2,7 +2,7 @@
 ### Writeup Template: You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
 
 ---
-[image1]: ./pr2_robot/scripts/ConfusionMatrixN_1.png
+[image1]: ./pr2_robot/scripts/ConfusionMatrixN_1n4.png
 [image2]: ./pr2_robot/scripts/ConfusionMatrixN_2.png
 [image3]: ./pr2_robot/scripts/ConfusionMatrixN_3.png
 [image4]: ./pr2_robot/scripts/test1.png
