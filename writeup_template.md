@@ -3,8 +3,8 @@
 
 ---
 [image1]: ./pr2_robot/scripts/ConfusionMatrixN_1n4.png
-[image2]: ./pr2_robot/scripts/ConfusionMatrixN_2n1.png
-[image3]: ./pr2_robot/scripts/ConfusionMatrixN_3.png
+[image2]: ./pr2_robot/scripts/ConfusionMatrixN_2n6.png
+[image3]: ./pr2_robot/scripts/ConfusionMatrixN_3n1.png
 [image4]: ./pr2_robot/scripts/test1.png
 [image5]: ./pr2_robot/scripts/test2.png
 [image6]: ./pr2_robot/scripts/test3.png
